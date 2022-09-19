@@ -1,0 +1,24 @@
+{
+  "name": "curriculo",
+  "version": "1.0.0",
+  "description": "# Solicitado na Lição número 01",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrKisi2/curriculo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrKisi2/curriculo/issues"
+  },
+  "homepage": "https://github.com/MrKisi2/curriculo#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sqlite3": "^5.1.1"
+  }
+}

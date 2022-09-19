@@ -1,0 +1,118 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Page title-->
+    <title>Currículo Ariel</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <div
+      style="
+        margin: auto;
+        width: 50%;
+        min-width: 1200px;
+        background-color: rgba(128, 128, 128, 0.455);
+      "
+    >
+      <div style="height: 400px; background-color: rgba(128, 128, 128, 0.796)">
+        <div style="display: flex">
+          <img src="./../assets/perfil.jpg" alt="foto Ariel" height="400px" />
+          <div style="padding-left: 20px">
+            <h1>Ariel Kisilevzky</h1>
+            <h3>Estudante de emgenharia de software - Inteli</h3>
+            <h3>São Paulo - Rua Guararapes 682 - Lapa - São Paulo</h3>
+            <h3>Email: arielkisi@hotmail.com</h3>
+            <h3>Estudante de emgenharia de software - Inteli</h3>
+          </div>
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          width: 100%;
+          height: 50px;
+          background-color: gray;
+          justify-content: space-around;
+          margin-bottom: 50px;
+        "
+      >
+        <a href="#Objetivos"><h1>Objetivos</h1></a>
+        <a href="#Experiência"><h1>Experiência</h1></a>
+        <a href="#Formação acadêmica"><h1>Formação acadêmica</h1></a>
+        <a href="#Contato"><h1>Contato</h1></a>
+      </div>
+
+      <div id="Objetivos" style="margin: 50px">
+        <h3><b>Objetivos:</b></h3>
+        <ul>
+          <li>Aprender sobre programação e ser um profissional da área</li>
+        </ul>
+      </div>
+
+      <div id="Experiência" style="margin: 50px">
+        <h3><b>Experiência:</b></h3>
+        <ul id="xpList">
+          <li>
+            Jogo de educação política feito no Godot para a Ong constituição na
+            escola
+          </li>
+          <li>
+            No momento, fazendo uma plataforma de gereciamneto de projetos para
+            a Yamaha
+          </li>
+        </ul>
+
+        <button
+          style="
+            width: 30px;
+            height: 30px;
+            background-color: green;
+            border-radius: 5px;
+          "
+          onclick="addExperiencia()"
+        >
+          +
+        </button>
+        <input
+          style="width: 200px; height: 30px; border-radius: 5px"
+          type="text"
+          name="adicionar"
+          id="addBtn"
+        />
+      </div>
+
+      <div id="Formação acadêmica" style="margin: 50px">
+        <h3><b>Formação acadêmica</b></h3>
+        <ul>
+          <li>Estudante: do Colégio Adventista</li>
+          <li>colegial: Almonte District High School</li>
+          <li>Inteli Engenharia de Software</li>
+        </ul>
+      </div>
+
+      <div id="Contato" style="margin: 50px">
+        <h4><b>Contato</b></h4>
+        <ul>
+          <li>Telefone: (11) 9-7558-2348</li>
+          <li>Email: arielkisi@hotmail.com</li>
+        </ul>
+      </div>
+
+      <h4>todos direitos reservados a Ariel Kisilevzky</h4>
+    </div>
+  </body>
+</html>

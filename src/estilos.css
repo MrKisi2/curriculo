@@ -1,0 +1,60 @@
+header{
+    background-color: black;
+    width: 100%;
+}
+
+img{
+    height: 15%;
+    width: 15%;
+}
+
+.divnome{
+    float: right;
+}
+
+.divfoto{
+    float: left;
+}
+
+.divtexto{
+    text-align: center;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    /*color: white;*/
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;    
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.inicio{
+    height: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    height: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+}
+
+h4{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
