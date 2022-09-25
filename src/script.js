@@ -1,10 +1,13 @@
 const experiencias = [];
 
+// Verifica se a página foi carregada
 $(document).ready(async () => {
+  //Pega todas as experiências do banco de dados
   const result = await getAllExperiencia();
 
   document.getElementById("xpList").innerHTML = "";
 
+  // cria uma lista html com as experências
   const text = factoryLinhaDeExperiencia(result);
   document.getElementById("xpList").innerHTML = text;
 });
@@ -28,6 +31,7 @@ function factoryLinhaDeExperiencia(result) {
   return text;
 }
 
+// Atualiza uma experiência no banco de dados
 async function updateExperiencia(id) {
   document.getElementById(`editInput${id}`).value;
 
@@ -56,6 +60,7 @@ async function updateExperiencia(id) {
   document.getElementById("xpList").innerHTML = text;
 }
 
+// Remove uma experiência no banco de dados
 async function removeExperiencia(id) {
   try {
     const url = `/user/${id}`;
@@ -74,6 +79,7 @@ async function removeExperiencia(id) {
   document.getElementById("xpList").innerHTML = text;
 }
 
+// Adiciona uma experiência no banco de dados
 async function addExperiencia() {
   try {
     let url = "/user";
@@ -99,6 +105,7 @@ async function addExperiencia() {
   document.getElementById("xpList").innerHTML = text;
 }
 
+// Pega todas as experiências no banco de dados
 async function getAllExperiencia() {
   try {
     let url = "/user";
